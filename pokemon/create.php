@@ -61,7 +61,7 @@ if(isset($_SESSION['old']['evolution'])) {
         <main role="main">
             <div class="jumbotron">
                 <div class="container">
-                    <h4 class="display-4">pokemons</h4>
+                    <h4 class="display-4">pokemon</h4>
                 </div>
             </div>
             <div class="container">
