@@ -11,7 +11,7 @@ Esta es una aplicación web desarrollada en PHP que permite a los usuarios crear
 
 
 
-![3](images/3.jpg)
+![3.2](images/3.jpg)
 
 
 ![4](images/4.jpg)
