@@ -1,10 +1,10 @@
-create database pokemondb
+create database pokemondb3
     default character set utf8
     collate utf8_unicode_ci;
 
-use pokemondb;
+use pokemondb3;
 
-create table product (
+create table pokemon (
   id bigint(20) not null auto_increment primary key,
   name varchar(100) not null unique,
   weight float not null,
@@ -13,11 +13,11 @@ create table product (
   evolution int not null
 ) engine=innodb default charset=utf8 collate=utf8_unicode_ci;
 
-create user pokemonuser@localhost
+create user pokemonuser3@localhost
     identified by 'pokemonpassword';
 
 grant all
-    on pokemondb.*
-    to pokemonuser@localhost;
+    on pokemondb3.*
+    to pokemonuser3@localhost;
 
 flush privileges;

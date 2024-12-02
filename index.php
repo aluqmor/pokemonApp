@@ -20,7 +20,7 @@ session_start();
                         <a class="nav-link" href="./">home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./product">pokemon</a>
+                        <a class="nav-link" href="./pokemon">pokemon</a>
                     </li>
                 </ul>
             </div>
@@ -57,7 +57,7 @@ session_start();
                     }
                     ?>
                     &nbsp;
-                    <a href="product" class="btn btn-success">pokemon table</a>
+                    <a href="pokemon" class="btn btn-success">pokemon table</a>
                 </div>
                 <hr>
             </div>
